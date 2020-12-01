@@ -1,6 +1,6 @@
 # Rust
 
-Got some inspiration over the other rust solution:
+Got some inspiration, improved the other rust solution:
 
 * Read from STDIN, less code.
 * Use map and collect
