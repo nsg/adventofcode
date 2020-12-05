@@ -15,9 +15,9 @@ fn main() {
         }
 
         x += 3;
-        let line_width = line.len() - 1;
-        if x > line_width {
-            x -= line_width + 1;
+        let line_width = line.len();
+        if x > line_width - 1 {
+            x -= line_width;
         }
     }
 
